@@ -1,0 +1,288 @@
+/*  1- comon styles
+    2- general styles
+    3-sections:-
+       3.0  HEADER Section
+       3.1  Home Section
+       3.2  About Section
+       3.3  Portofolio Section
+       3.4  Services Section*
+       3.5  prices Section
+       3.6  Team Section
+       3.7   Blog page
+       3.8   contact Section
+       3.8  footer Section
+*/
+
+/*  1- comon styles*/
+.list-unstyled {
+  list-style: none;
+}
+:root {
+  --maincolor: #7b5244;
+  --subcolor: #333;
+}
+/*General css*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1150px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+.clear {
+  clear: both;
+}
+
+/*section header*/
+.header {
+  width: 100%;
+  height: 350px;
+  background-color: blueviolet;
+}
+.header .heading {
+  width: 50%;
+  float: left;
+  margin-top: 100px;
+  border-right: 1px solid darkgray;
+}
+.header .heading h2 {
+  width: 49%;
+  color: #fff;
+  font-size: 23px;
+  line-height: 1.8;
+}
+.header .heading h2 span:hover {
+  color: #00bcba;
+  cursor: pointer;
+}
+.header .lorem {
+  float: left;
+  width: 40%;
+  margin-left: 3%;
+  margin-top: 100px;
+}
+.header .lorem p {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  color: darkgray;
+  line-height: 1.8;
+  font-weight: bold;
+}
+.header .lorem button {
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  background: #00bcba;
+  padding: 15px;
+  border-radius: 50px;
+  width: 200px;
+  text-transform: uppercase;
+  outline: 0;
+  cursor: pointer;
+  margin: 30px 0 10px 5px;
+}
+/*magna section*/
+.magna {
+  width: 100%;
+  height: 350px;
+  border-bottom: 2px solid #ddd;
+  padding-top: 50px;
+}
+.learn {
+  width: 50%;
+  float: left;
+  border-right: 2px solid#ddd;
+}
+.magna .learn h2 {
+  font-family: tahoma;
+  color: #777;
+  text-decoration: underline;
+  margin: 15px 0;
+}
+
+.magna .learn p {
+  line-height: 1.9;
+  font-family: tahoma;
+  color: #888;
+  margin: 15px 0;
+  padding: 10px;
+}
+
+.magna .learn button {
+  background: #fff;
+  border: 2px solid #ddd;
+  padding: 15px;
+  border-radius: 30px;
+  width: 200px;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: 0;
+  margin: 15px 0;
+  color: #888;
+}
+.ipsum {
+  float: left;
+  width: 42%;
+  margin-left: 3%;
+  margin-top: 17px;
+}
+.ipsum p {
+  line-height: 3;
+  font-family: tahoma;
+  font-weight: bold;
+  color: #666;
+}
+.ipsum p i {
+  color: #00bcba;
+  margin: 0 20px;
+  padding-right: 25px;
+}
+/*site info section*/
+.site-info {
+  width: 100%;
+  background: #f2f2f2;
+  height: auto;
+  overflow: hidden;
+  padding: 50px 0;
+}
+.part1 {
+  padding-bottom: 50px;
+  height: 350px;
+  margin: 40px 10px;
+}
+.part1 img {
+  width: 40%;
+  float: left;
+  border-radius: 30px;
+}
+.part1 .content {
+  width: 40%;
+  float: left;
+  padding-left: 70px;
+  padding-top: 50px;
+}
+.part1 .content h2 {
+  color: #777;
+  font-family: Tahoma;
+  text-decoration: underline;
+  margin: 20px 0;
+}
+.part1 .content p {
+  color: #888;
+  font-family: Tahoma;
+  line-height: 2;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.part1 .content button {
+  background: none;
+  border: 1px solid #ddd;
+  width: 150px;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 20px;
+  color: #777;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 10px 0 0 0;
+}
+.content button:hover {
+  background-color: #888;
+  color: #fff;
+}
+/*form setion*/
+.form {
+  padding: 50px 0;
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+}
+.inputs {
+  width: 50%;
+  float: left;
+  border-right: 2px solid #ddd;
+  padding: 10px;
+}
+.inputs h2 {
+  text-transform: capitalize;
+  margin: 5px 0 20px 0;
+  font-family: tahoma;
+}
+.inputs p {
+  line-height: 2;
+  color: #888;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.inputs input[type="text"],
+.inputs input[type="email"] {
+  width: 250px;
+  height: 40px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  outline: 0;
+  font-size: 20px;
+}
+.inputs form textarea {
+  width: 505px;
+  outline: 0;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.inputs form input[type="submit"] {
+  width: 150px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  background: #fff;
+  text-transform: uppercase;
+}
+.links {
+  float: left;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-top: -40px;
+}
+.links p {
+  line-height: 2;
+  text-transform: capitalize;
+  padding: 10px;
+  font-weight: bold;
+}
+.links p i {
+  padding-right: 25px;
+  color: #00bcba;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.footer {
+  width: 100%;
+  height: 150px;
+  border-top: 1px solid #ddd;
+}
+.footer p {
+  text-align: center;
+  line-height: 150px;
+  font-family: Tahoma;
+  color: #777;
+}
+.footer p span {
+  color: rgb(74, 23, 155);
+  font-weight: bold;
+  font-size: 20px;
+  font-family: tahoma;
+}
